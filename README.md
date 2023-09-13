@@ -2,6 +2,8 @@
 
 [Material complementar](https://efficient-sloth-d85.notion.site/NLW-13-IA-dc54c0a8b5c04d8198cef71627852d73)
 
+[Repositório oficial](https://github.com/rocketseat-education/nlw-ai-mastery)
+
 ## Front-end
 
 Instalar e configurar o [shadcn/ui](https://ui.shadcn.com) com [Tailwind CSS](https://tailwindcss.com) e [Radix UI](https://www.radix-ui.com).
