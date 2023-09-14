@@ -115,4 +115,4 @@ Instalar o [zod](https://zod.dev) para validação:
 
 Instalar a biblioteca [openai](https://www.npmjs.com/package/openai):
 
-> ➜ npm i openai
+> npm i openai
