@@ -4,6 +4,19 @@
 
 [Repositório oficial](https://github.com/rocketseat-education/nlw-ai-mastery)
 
+Dicas de ferramentas:
+
+- httpie: <https://httpie.io>
+- REST Client for VSCode : <https://marketplace.visualstudio.com/items?itemName=humao.rest-client>
+- Aramazenamento de arquivos em Clund:
+  - [Amazon S3](https://aws.amazon.com/s3)
+  - [Cloudflare R2](https://developers.cloudflare.com/r2)
+    - Não cobra taxa de egress, ou seja, taxa de download.
+
+Dicas:
+
+- No Javascript quando temos um número muito grande como `1048576`, para visualizar melhor as casas dos milhares é possível utilizar o **undernline** (`_`), ficando `1_048_576`. Isso não afetará o valor.
+
 ## Front-end
 
 Instalar e configurar o [shadcn/ui](https://ui.shadcn.com) com [Tailwind CSS](https://tailwindcss.com) e [Radix UI](https://www.radix-ui.com).
@@ -61,3 +74,45 @@ Instalar a biblioteca [Lucide React](https://lucide.dev) para ícones:
 > npm i lucide-react
 
 ## Back-end
+
+Iniciar configuração do Node.js:
+
+> npm init -y
+
+Instalar dependências de desenvolvimento:
+
+> npm i -D typescript @types/node tsx
+
+Instalar o framework [fastify](https://fastify.dev) para rotas HTTP:
+
+> npm i fastify
+
+Instalar a lib [fastify-multipart](https://github.com/fastify/fastify-multipart):
+
+> npm i @fastify/multipart
+
+Instalar e configurar o [Prisma ORM](https://www.prisma.io)
+
+- Instalação:
+
+  > npm i -D prisma
+
+- Configuração com SQLite:
+
+  > npx prisma init --datasource-provider sqlite
+
+- Comando para gerar migrations do Prisma no ambiente de desenvolvimento:
+
+  > npx prisma migrate dev
+
+- Visualizar o banco de dados com CLI do Prisma:
+
+  > npx prisma studio
+
+Instalar o [zod](https://zod.dev) para validação:
+
+> mpm i zod
+
+Instalar a biblioteca [openai](https://www.npmjs.com/package/openai):
+
+> ➜ npm i openai
