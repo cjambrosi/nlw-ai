@@ -11,11 +11,11 @@ Dicas de ferramentas:
 - Aramazenamento de arquivos em Clund:
   - [Amazon S3](https://aws.amazon.com/s3)
   - [Cloudflare R2](https://developers.cloudflare.com/r2)
-    - Não cobra taxa de egress, ou seja, taxa de download.
+    - Não cobra taxa de *egress*, ou seja, taxa de download.
 
 Dicas:
 
-- No Javascript quando temos um número muito grande como `1048576`, para visualizar melhor as casas dos milhares é possível utilizar o **undernline** (`_`), ficando `1_048_576`. Isso não afetará o valor.
+- No JavaScript quando temos um número muito grande como `1048576`, para visualizar melhor as casas dos milhares é possível utilizar o **undernline** (`_`), ficando `1_048_576`. Isso não afetará o valor.
 
 ## Front-end
 
@@ -73,6 +73,14 @@ Instalar a biblioteca [Lucide React](https://lucide.dev) para ícones:
 
 > npm i lucide-react
 
+Instalar a lib de conversão de ádio/vídeo [ffmpegwasm](https://ffmpegwasm.netlify.app):
+
+> npm install @ffmpeg/ffmpeg @ffmpeg/util
+
+Instalar o pacote da Vercel [ai](https://www.npmjs.com/package/ai) (ajuda a retornar a reposta da AI aos poucos):
+
+> npm i ai
+
 ## Back-end
 
 Iniciar configuração do Node.js:
@@ -109,6 +117,10 @@ Instalar e configurar o [Prisma ORM](https://www.prisma.io)
 
   > npx prisma studio
 
+- Executar o arquivo `seed.ts`:
+
+  > npx prisma db seed
+
 Instalar o [zod](https://zod.dev) para validação:
 
 > mpm i zod
@@ -116,3 +128,7 @@ Instalar o [zod](https://zod.dev) para validação:
 Instalar a biblioteca [openai](https://www.npmjs.com/package/openai):
 
 > npm i openai
+
+Instalar o pacote da Vercel [ai](https://www.npmjs.com/package/ai) (ajuda a retornar a reposta da AI aos poucos):
+
+> npm i ai
